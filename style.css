@@ -1,14 +1,80 @@
 body{
     font-family: 'Play', sans-serif;
     margin: 0;
-    padding: 0;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 35px;
 }
 span{
     color: crimson;
 }
 section{
     display: flex;
+}
+div{
+    padding: 2em;
+    width: 50%;
+}
+p{
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.top-image{
+    width: 100%;
+    padding-left: 50px;
+    align-items: flex-end;
+
+}
+.about-me{
+    margin-top: 50px;
+    padding-right: 70px;
+}
+.button{
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: tomato;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(tomato, orange);
+}
+.top-section{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+
+}
+.second-section{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#exprience{
+    display: block;
+    padding-left: 60px;
+}
+.experience{
+    display: flex;
+    width: 95%;
+    margin-bottom: 8vh;
+
+
+}
+.item{
+    margin: 0 30px;
+    border-radius: 10px;
+    box-shadow: 2px 10px 30px 2px;
+    border-left: 8px solid ;
+    border-image: linear-gradient(tomato, cyan);
+    border-image-slice: 1;
+}
+.two{
+    border-image: linear-gradient(blue, crimson);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
